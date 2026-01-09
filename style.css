@@ -34,7 +34,7 @@ main{
 .container{
     width: 80%;
     padding: 20px;
-    background-color: brown;
+    background-color: rgb(21, 132, 88);
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -49,11 +49,11 @@ main{
 }
 
 .bloco-1{
-    order: -2;
+    order: -1;
 }
 
 .bloco-2{
-    order: -1;
+    order: -2;
 }
     
 .bloco-3{
@@ -67,4 +67,8 @@ main{
 
 .bloco-5{
     order: -3;
+}
+
+.bloco-6{
+    order: 6;
 }
